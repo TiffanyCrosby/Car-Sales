@@ -29,6 +29,9 @@ const App = (props) => {
   );
 };
 
+// ????????? How do you use useDispatch if it is not actually being dispateched? Also how do you do useSelector
+// instead of mapStateToProps but still have access to actions?...will connect break if you don't do mapStateToProps?
+
 const mapStateToProps = (state) => {
   return {
     additionalPrice: state.additionalPrice,
